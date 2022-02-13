@@ -1,13 +1,25 @@
 # Diabetes-prediction
+## Project Demo URL : https://frt-azure-2.azurewebsites.net
 
-Check my below article for step by step instructions.
-https://medium.com/analytics-vidhya/beginners-guide-to-model-deployment-dcf3abcdcc4c
 
-Are you a beginner in the field of machine learning and wondering how to bring your project to live. I'm was in the same situation when I started learning ML.
-Most of the ML courses focus on EDA,feature engineering and model tuning and ignore the model deployment.
+•This repository consists of files required to deploy a **Web App** created with **Flask on Microsoft Azure**.# diabetes_predictor The project helps the user to identify whether someone is suffering from diabetes by simply inputting certain values like BMI, Glucose level, Blood pressure etc. with the help of a Kaggle database.
 
-The end goal of any machine learning model is making it available for end user for consumption. However deploying model has it own challenges and it also differs where you are going to deploy the model (Azure,AWS,GCP,heroku etc.). 
-In this repository I will help you to deploy your model using Flask and Heroku. Flask is a micro web framework that does not require particular tools or libraries to create web applications and easy to protype.Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
+By using the statistical data about how certain aspects like BMI, Glucose level, Insulin level, age etc. impact if an individual is prone to diabetes or not, the project will be able to tell the user if the person has diabetes or not by entering those values. So in a way the project will help in monitoring the likelihood of someone developing diabetes. The project can be extended to include other diseases prediction which I will incorporate later down the road.
 
-If you use parts of this scripts, please cite this repro link in your scripts.
+### Problem Statement/Oppurtunity:
+Diabetes is an illness caused because of high glucose level in a human body. Diabetes should not be ignored if it is untreated then Diabetes may cause some major issues in a person like: heart related problems, kidney problem, blood pressure, eye damage and it can also affects other organs of human body. Diabetes can be controlled if it is predicted earlier. To achieve this goal this project work we will do early prediction of Diabetes in a human body or a patient for a higher accuracy through applying, Various Machine Learning Techniques.
+
+## Project Discription:
+ Machine learning techniques Provide better result for prediction by con- structing models from datasets collected from patients. In this work we will use Machine Learning Classification and ensemble techniques on a dataset to predict diabetes. Which are K-Nearest Neighbor (KNN), Logistic Regression (LR), Decision Tree (DT), Support Vector Machine (SVM), Gradient Boosting (GB) and Random Forest (RF). The accuracy is different for every model when compared to other models. The Project work gives the accurate or higher accuracy model shows that the model is capa- ble of predicting diabetes effectively. Our Result shows that Random Forest achieved higher accuracy compared to other machine learning techniques. The is a Microsoft Azure Web App project that helps the user to identify whether someone is suffering from diabetes by simply inputting certain values like BMI, Glucose level, Blood pressure etc. with the help of Kaggle database.
+
+## Primary Ajure Technology:
+**Azure Web Apps , AI+Machine Learning, Computer Vision, Static Web Apps, Web Apps**
+
+## Conclusion:
+Hence we succesfully predict that any person having diabities or not.
+
+Thank You
+
+
+
 
